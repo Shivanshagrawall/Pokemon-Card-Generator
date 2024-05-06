@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff3ff;
+}
+
+/* Card Property */
+.card {
+    width: 400px;
+    height: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    /* background : radial-gradient(circle at 50% 0%,#26de81 60%, #ffffff 36%); */
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.hp-container {
+    width: 100%;
+    height: fit-content;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.hp-container button {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.hp-container button span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.img-container {
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    height: 180px;
+    width: 200px;
+}
+
+.name-container {
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.name-container h2 {
+    font-size: 24px;
+    color: #000;
+}
+
+.pokemon-title {
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pokemon-title button {
+    padding: 5px 15px;
+    color: white;
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.poakemon-properties {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemon-attack,
+.pokemon-defence,
+.pokemon-speed {
+    /* border: 2px solid red; */
+    width: 33%;
+    text-align: center;
+}
+
+.pokemon-attack h2,
+.pokemon-defence h2,
+.pokemon-speed h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pokemon-attack h3,
+.pokemon-defence h3,
+.pokemon-speed h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #404060;
+}
+
+/* Generate Button */
+.generateBtn {
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #101010;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 30px;
+}
